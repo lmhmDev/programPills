@@ -15,7 +15,7 @@
 **Project Init:**
 
 - Para poner el proyecto en marcha solo necesitaremos ejecutar el comando `npm start`.
-- Una vez nos notifique que se ha conectado correctamente e la base de datos todo estaría listo.
+- Una vez nos notifique que se ha conectado correctamente a la base de datos todo estaría listo.
 
 ---
 
