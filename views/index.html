@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    Program Pills
+  </title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <main>
+    <h1>
+      Pills Stock
+    </h1>
+    <div class="container">
+      <% for (let pill of data) { %>
+        <div class="card">
+          <img src="/images/<%=pill.image%>" alt="">
+          <h2 class="title">
+            <%= pill.name %>
+          </h2>
+
+          <p class="description">
+            <%= pill.description %>
+          </p>
+          <div class="tags">
+            <%for(let tag of pill.tags){%>
+              <p>
+                <%=tag%>
+              </p>
+              <%}%>
+          </div>
+          <p class="selling">
+            <%if(pill.selling){ %>
+              En venta
+              <%}else{%>
+                Se busca
+                <%}%>
+          </p>
+          <p class="price">
+            <%= pill.price %>$
+          </p>
+
+        </div>
+        <%} %>
+    </div>
+  </main>
+
+</body>
+
+</html>
