@@ -1,5 +1,5 @@
 # PROGRAM PILLS
-## Pildoras que harán que aprendas un lenguaje de programación de manera instantanea
+## Píldoras que harán que aprendas un lenguaje de programación de manera instantanea
 
 ### Documentación:
 
@@ -23,10 +23,10 @@
 
 *GET Methods*
 
-- Para poder visualizar los datos basta con dirigirte a tu navegador y dirigirte a http://localhost:3000 donde veras la pagina principal del proyecto.
-- Una vez estes en http://localhost:3000/api/pills podras filtrar por diversos valores:
+- Para poder visualizar los datos basta con dirigirte en tu navegador a http://localhost:3000 donde verás la página principal del proyecto.
+- Una vez estés en http://localhost:3000/api/pills podrás filtrar por diversos valores:
     1. name (String)
-    2. price ([Number]) primero el numero minimo y luego el maximo
+    2. price ([Number]) primero el precio mínimo y luego el máximo
     3. tags ([String])
     4. selling (Boolean)
 - Tambien puedes añadir filtros como:
